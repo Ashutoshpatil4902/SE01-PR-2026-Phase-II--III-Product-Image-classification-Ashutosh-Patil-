@@ -1,0 +1,4 @@
+Model,Accuracy,F1-score,Training time (min),Total parameters,Grad-CAM Quality,SHAP Interpretability,Overall Finding
+Custom CNN,0.4547121378804547,0.38579321800403066,4.021332221649997,457961,Review visually,Review visually,fastest training; trained from scratch baseline
+MobileNetV2,0.7176384305097177,0.7105927212206213,4.22544775326666,2269513,Review visually,Review visually,"compare accuracy, cost, and explanations"
+ResNet50,0.7693436010267694,0.7679810117983339,6.923979962983337,23606153,Review visually,Review visually,best F1

@@ -1,0 +1,4 @@
+Model,Total parameters,Trainable parameters before fine-tuning,Grad-CAM feature layer,Weights
+Custom CNN,457961,457001,custom_last_relu,trained from scratch
+MobileNetV2,2269513,11529,out_relu,imagenet
+ResNet50,23606153,18441,conv5_block3_out,imagenet

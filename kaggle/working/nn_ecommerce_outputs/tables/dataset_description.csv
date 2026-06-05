@@ -1,0 +1,2 @@
+Dataset name,Detected root,Number of images used,Number of classes,Original sample size,Model input size
+E-commerce Product Images 18K,/kaggle/input/datasets/fatihkgg/ecommerce-product-images-18k,18175,9,224 x 224,224 x 224
