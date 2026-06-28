@@ -1,0 +1,23 @@
+{
+  "input_size": [224, 224],
+  "models": {
+    "custom_cnn": {
+      "file": "custom_cnn.keras",
+      "display_name": "Custom CNN",
+      "last_conv_layer": "custom_last_conv",
+      "total_parameters": 457961
+    },
+    "mobilenetv2": {
+      "file": "mobilenetv2.keras",
+      "display_name": "MobileNetV2",
+      "last_conv_layer": "out_relu",
+      "total_parameters": 2269513
+    },
+    "resnet50": {
+      "file": "resnet50.keras",
+      "display_name": "ResNet50",
+      "last_conv_layer": "conv5_block3_out",
+      "total_parameters": 23606153
+    }
+  }
+}
